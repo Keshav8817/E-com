@@ -12,7 +12,7 @@ export const Contact = () => {
 
   useEffect(() => {
     axios
-      .get("https://ecom.azurewebsites.net//user/1")
+      .get("https://ecomg.azurewebsites.net//user/1")
       .then((response) => {
         setData(response.data);
       })
