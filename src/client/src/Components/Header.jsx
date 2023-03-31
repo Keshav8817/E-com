@@ -8,7 +8,7 @@ function Header(){
       <>
       <div className="container">
          <Navbar />
-        <HeroSection />
+        
       </div>
      
     </> 
