@@ -1,9 +1,10 @@
 import React from "react";
+
 import ImageSlider from "react-auto-image-slider";
 
 const FeaturedCate = () =>{
  return (
-    <>
+    <div className="hContainer">
     <div className="categories">
     <h2>Featured Categories</h2>
     <div className="small-container">
@@ -21,7 +22,7 @@ const FeaturedCate = () =>{
         <hr/>
     </div>
 </div>
-    </>
+    </div>
  )
 }
 export default FeaturedCate

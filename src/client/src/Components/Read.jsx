@@ -34,8 +34,8 @@ function Read() {
       </button>
       
           <div className="row">
-            <div className="col-md-12">
-              <table>
+            <div className="col-md-12 table-Box">
+              <table >
                 <thead>
                   <tr>
                     <th>ID</th>
@@ -50,11 +50,11 @@ function Read() {
                 {getData.map((apiData) => {
         return (
                   <tr>
-                    <td class="table-dark">{apiData.id}</td>
-                    <td class="table-dark">{apiData.firstName}</td>
-                    <td class="table-dark">{apiData.lastName}</td>
-                    <td class="table-dark">{apiData.age}</td>
-                    <td class="table-dark">{apiData.occupation}</td>
+                    <td >{apiData.id}</td>
+                    <td >{apiData.firstName}</td>
+                    <td >{apiData.lastName}</td>
+                    <td >{apiData.age}</td>
+                    <td >{apiData.occupation}</td>
                     <td>
                       <button
                         className="btn btn-primary"

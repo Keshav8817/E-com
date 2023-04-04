@@ -1,6 +1,7 @@
 import axios from 'axios';
 import React, { useEffect, useState } from 'react';
 import { useLocation, useNavigate } from 'react-router';
+import Layout from './Layout';
 
 
 function Create() {
@@ -50,7 +51,8 @@ if(location?.state?.apiData){
 } , [])
 
   return (
-   <div className='container'>
+  <Layout>
+     <div className='container'>
    <div className='row'>
 
     <div className=' text-center'>
@@ -80,6 +82,7 @@ if(location?.state?.apiData){
    </div>
   
    </div>
+  </Layout>
   )
 }
 
